@@ -43,10 +43,6 @@ body{
     font-size: 12pt;
 }
 
-.container {
-    transition: all .3s ease-in-out;
-}
-
 .content{
     margin-top:50px;
 }

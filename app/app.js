@@ -1,11 +1,7 @@
 'use strict';
 
 angular.module('designtrends', [
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
   'ui.router',
-  'ui.bootstrap',
   'mgcrea.ngStrap'
 ])
 .constant('version', 'v2.3.7')

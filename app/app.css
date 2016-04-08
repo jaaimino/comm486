@@ -55,6 +55,17 @@ body{
     margin: 0 auto;
 }
 
+/* Global styles */
+
+section{
+    padding-bottom: 10px;
+}
+
+.example-section{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 /* Changed Theme Styles */
 
 .bs-header{

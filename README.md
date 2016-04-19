@@ -1,6 +1,6 @@
-# jaaimino.github.io
+# Modern Web Trends
 
-My personal site, built as an angular SPA for easing serving from github pages.
+A site build in a docs format describing some modern web trends with codepen examples.
 
 ## Build & Development ##
 

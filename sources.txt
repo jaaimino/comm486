@@ -1,3 +1,5 @@
-http://www.pewinternet.org/2014/03/11/world-wide-web-timeline/
-http://www.webdirections.org/history/
 http://evolutionofweb.appspot.com/
+http://php.net/manual/en/history.php.php
+https://www.w3.org/Style/LieBos2e/history/Overview.html
+http://codeclimber.net.nz/archive/2011/06/29/The-history-of-ASP-NET-MVC-so-far.aspx
+http://siliconangle.com/blog/2013/04/01/the-birth-of-node-where-did-it-come-from-creator-ryan-dahl-shares-the-history/

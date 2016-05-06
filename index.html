@@ -10,24 +10,20 @@
     <title>Modern Web Trends</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(client) app/vendor.css -->
-      <!-- bower:css -->
-      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
-      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-      <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css({.tmp,client}) app/app.css -->
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+
     <link rel="stylesheet" href="assets/css/docs.min.css">
+    <link rel="stylesheet" href="assets/css/paper.min.css">
     <link rel="stylesheet" href="app/app.css">
-      <!-- injector:css -->
-      <link rel="stylesheet" href="app/app.css">
-      <link rel="stylesheet" href="app/main/main.css">
-      <link rel="stylesheet" href="components/modal/modal.css">
-      <link rel="stylesheet" href="components/header/header.css">
-      <link rel="stylesheet" href="components/footer/footer.css">
-      <!-- endinjector -->
-    <!-- endbuild -->
+
+    <link rel="stylesheet" href="app/app.css">
+    <link rel="stylesheet" href="app/main/main.css">
+    <link rel="stylesheet" href="components/modal/modal.css">
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
+
   </head>
   <body ng-app="designtrends">
     <!--[if lt IE 7]>
@@ -52,21 +48,15 @@
     <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
-    <!-- build:js({client,node_modules}) app/vendor.js -->
-      <!-- bower:js -->
-      <script src="bower_components/jquery/dist/jquery.js"></script>
-      <script src="bower_components/angular/angular.js"></script>
-      <script src="bower_components/lodash/dist/lodash.compat.js"></script>
-      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-      <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
-      <!-- endbower -->
-    <!-- endbuild -->
 
-        
-  <!-- build:js({.tmp,client}) app/app.js -->
-  
-  <script src="app/app.js"></script>
-    <!-- injector:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+    
+    <script src="app/app.js"></script>
+
     <script src="app/paper/paper.controller.js"></script>
     <script src="app/paper/paper.js"></script>
 
@@ -79,7 +69,6 @@
     <script src="components/header/header.controller.js"></script>
     <script src="components/title/title.controller.js"></script>
     <script src="components/footer/footer.controller.js"></script>
-    <!-- endinjector -->
-  <!-- endbuild -->
+
 </body>
 </html>

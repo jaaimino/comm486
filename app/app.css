@@ -57,6 +57,11 @@ body{
 
 /* Global styles */
 
+.navbar{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 section{
     padding-bottom: 10px;
 }

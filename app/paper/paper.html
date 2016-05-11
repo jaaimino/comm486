@@ -27,7 +27,7 @@
         <li><a href="#/paper#css">The Colorful Web: CSS</a></li>
         <li><a href="#/paper#serverside">Databases, Templates, and Requests: Serverside Languages</a></li>
         <li><a href="#/paper#javascript">Interactive Experiences: JavaScript</a></li>
-        <li><a href="#/paper#future">The Future: ?</a></li>
+        <li><a href="#/paper#future">The Future: A Dynamic, Lightweight Server Enviornment</a></li>
         <li><a href="#/paper#reference">References</a></li>
       </ol>
       <hr>
@@ -81,43 +81,62 @@
       <a href="#/paper#contents">Contents</a>
       <hr>
       <h3 id="serverside">Interactive Experiences: JavaScript</h3>
-      <p>(<a href="#/paper#javascript">A Short History of JavaScript</a>)</p>
+      <p>
+        The final front to see improvement in the web sphere was client side scripting. Before, if you wanted to make anything change on a web page, you'd need to rely on a serverside scripting language like PHP, .NET, or JSP to take a request, and send a new page with different content. In 1995, we first saw what was originally called Mocha, implemented in Netscape. Later that year it would be changed to LiveScript, and ultimately, JavaScript, the name the language retains to this day (<a href="#/paper#javascript">A Short History of JavaScript</a>). 
+      </p>
+      <p>
+        As with other web standards, JavaScript was taken to a group to have a specification written to help standardize the implementation of the language in different browsers. This standard is called EMCAScript, named after the group that wrote the standard, the European Computer Manufacturers Association (<a href="#/paper#javascript">A Short History of JavaScript</a>). 
+      </p>
+      <p>
+        EMCAScript would end up going through two more iterations EMCAScript 2, and EMCAScript 3, which is essentially the standard from which the JavaScript we know today is derived. One of the more recent and probably the most important event to happen with JavaScript was a little thing called Ajax, or Asynchronous JavaScript and XML. This allows web sites to make requests to a server without reloading a page, and forms the basis of a lot of modern web frameworks like angularjs, and backbone that we have today (<a href="#/paper#javascript">A Short History of JavaScript</a>).
+      </p>
       <a href="#/paper#contents">Contents</a>
       <hr>
-      <h3 id="future">The Future: ?</h3>
-      <p>NodeJS, Big Data, Large Scale</p>
+      <h3 id="future">The Future: A Dynamic, Lightweight Server Enviornment</h3>
+      <p>
+        With so much innovation happening in the web sphere, it is exciting to predict where we might be headed. Since the invention of ajax, and widespread adoption in the modern web, people have come to realize that templating entire pages serverside can get quite expensive. This is where we move into the future, in which servers simply send data, and not entire web pages. This data is usually in the format of JSON, or XML, and is requested at the time of page-load, and only requested when the page needs it. This is starting to allow massive scale sites, with much less massive scale servers.
+      </p>
+      <p>
+        With the massive scale of traffic in today's web, we can see new technologies like NodeJS appear. NodeJS was created with the idea of non-blocking requests, and concurrent threaded technology as the heart of the system. A lot of systems before, assumed that requests would happen near instantaneous, such as a request for a page. When a bunch of blocking requests come up at once, the whole system gets clogged up with requests. Here, we have a server that can handle several of these requests theoretically at the same time. The most interesting part that I find about NodeJS is actually that the entirety of it is written in JavaScript, a language originally created for client-side code, which has been repurposed to fit serverside needs (<a href="#/paper#harris">Harris 2013</a>).  
+      </p>
+      <p>
+        In all, I think the direction we're headed is one that keeps lessening it's reliance on serverside processing, and instead, allowing languages like JavaScript to run on a client machine, processing data and updating the web page with short requests. I think we will continue to see more and more adaptable languages like JavaScript appear, perhaps with even more flexible structure. 
+      </p>
       <a href="#/paper#contents">Contents</a>
       <hr>
       <h3 id="reference">References</h3>
-      <p id="stewart">
-        Stewart, William. "Mosaic -- The First Global Web Browser." Mosaic. N.p., 7 Jan. 2000. Web. 05 May 2016.
-        <a target="_blank" href="http://www.livinginternet.com/w/wi_mosaic.htm">Link</a>
-      </p>
-      <p id="longman">
-        Longman, Addison Wesley. "A History of HTML." Chapter 2. N.p., 1998. Web. 06 May 2016.
-        <a target="_blank" href="https://www.w3.org/People/Raggett/book4/ch02.html">Link</a>
-      </p>
-      <p id="lie">
-        Lie, Håkon Wium, and Bert Bos. "Chapter 20 The CSS Saga." Cascading Style Sheets, Designing for the Web – Chapter 20: The CSS Saga. Addison Wesley, 1999. Web. 06 May 2016.
-        <a target="_blank" href="https://www.w3.org/Style/LieBos2e/history/Overview.html">Link</a>
-      </p>
-      <p id="php">
-        "PHP: History of PHP - Manual." PHP: History of PHP - Manual. N.p., n.d. Web. 09 May 2016.
-        <a target="_blank" href="http://php.net/manual/en/history.php.php">Link</a>
+      <p id="javascript">
+        "A Short History of JavaScript." - Web Education Community Group. N.p., n.d. Web. 09 May 2016.
+        <a target="_blank" href="https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript">Link</a>
       </p>
       <p id="chiaretta">
         Chiaretta, Simone. "The History of ASP.NET MVC, so Far." CodeClimber. N.p., 29 June 2011. Web. 09 May 2016.
         <a target="_blank" href="http://codeclimber.net.nz/archive/2011/06/29/The-history-of-ASP-NET-MVC-so-far.aspx">Link</a>
       </p>
+      <p id="harris">
+        Harris, Amber. "The Birth of Node: Where Did It Come From? Creator Ryan Dahl Shares the History." SiliconANGLE. N.p., 1 Apr. 2013. Web. 11 May 2016.
+        <a target="_blank" href="http://siliconangle.com/blog/2013/04/01/the-birth-of-node-where-did-it-come-from-creator-ryan-dahl-shares-the-history/">Link</a>
+      </p>
       <p id="holzner">
         Holzner, Steven. "Getting Started with JSP." A Brief History of JSP. N.p., 21 Feb. 2003. Web. 09 May 2016.
         <a target="_blank" href="http://www.informit.com/articles/article.aspx?p=31072&seqNum=5">Link</a>
       </p>
-      <p id="javascript">
-        "A Short History of JavaScript." - Web Education Community Group. N.p., n.d. Web. 09 May 2016.
-        <a target="_blank" href="https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript">Link</a>
+      <p id="lie">
+        Lie, Håkon Wium, and Bert Bos. "Chapter 20 The CSS Saga." Cascading Style Sheets, Designing for the Web – Chapter 20: The CSS Saga. Addison Wesley, 1999. Web. 06 May 2016.
+        <a target="_blank" href="https://www.w3.org/Style/LieBos2e/history/Overview.html">Link</a>
       </p>
-
+      <p id="longman">
+        Longman, Addison Wesley. "A History of HTML." Chapter 2. N.p., 1998. Web. 06 May 2016.
+        <a target="_blank" href="https://www.w3.org/People/Raggett/book4/ch02.html">Link</a>
+      </p>
+      <p id="php">
+        "PHP: History of PHP - Manual." PHP: History of PHP - Manual. N.p., n.d. Web. 09 May 2016.
+        <a target="_blank" href="http://php.net/manual/en/history.php.php">Link</a>
+      </p>
+      <p id="stewart">
+        Stewart, William. "Mosaic -- The First Global Web Browser." Mosaic. N.p., 7 Jan. 2000. Web. 05 May 2016.
+        <a target="_blank" href="http://www.livinginternet.com/w/wi_mosaic.htm">Link</a>
+      </p>
       <a href="#/paper#contents">Contents</a>
       <div ng-include="'components/footer/footer.html'"></div>
     </div>
